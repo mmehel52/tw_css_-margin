@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@300&family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400&family=Lobster&family=Oswald:wght@300&family=Yellowtail&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -27,6 +30,36 @@ main {
   font-size: 18px;
   border-radius: 5px;
   box-shadow: 1px 1px 5px black;
+  cursor: pointer;
 }
 .content h4 {
+  margin-top: 1rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: rgba(213, 213, 35, 0.75);
+  font-size: 20px;
+}
+.content span {
+  color: rgba(213, 213, 35, 0.9);
+}
+.content p {
+  font-size: 32px;
+  margin: 2rem 1 rem;
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  color: rgba(47, 47, 47, 0.75);
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  color: rgb(180, 53, 119);
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.5s ease;
+}
+footer a:hover {
+  color: black;
 }
